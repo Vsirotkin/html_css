@@ -13,4 +13,13 @@ body {
 
 .list {
     list-style-type: none;
+    color: blue;
+}
+
+ul li a {
+  color: green;
+}
+
+ul>li {
+    border: 1px solid red;
 }
