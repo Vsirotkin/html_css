@@ -1,0 +1,9 @@
+.block {
+  width: 90%;
+  height: 300px;
+  border: 1px solid #000;
+  background-color: #ccc;
+  background-image: url(images/cat.png);
+  background-size: cover;
+  background-position: center;
+}

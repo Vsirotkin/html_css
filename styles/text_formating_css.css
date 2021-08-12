@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.heading {
+    text-align: center;
+}
+
+.text {
+    color: blue;
+    font-family: serif;
+}
+
+.list {
+    list-style-type: none;
+}
