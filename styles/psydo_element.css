@@ -1,0 +1,44 @@
+.menu_li_new::after {
+  content: ' some text after link';
+  color: red;
+}
+
+.menu__li:nth-child(3)::after {
+  content: ' text counted on child';
+  color: red;
+}
+
+.menu__li::before {
+  content: '* ';
+  color: blue;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu__li:hover::after {
+  content: ' <<<<';
+}
+/* adding new */
+.product {
+  width: 250px;
+  border: 2px solid red;
+}
+
+.product__new::after {
+  content: 'new';
+  text-transform: uppercase;
+  color: red;
+}
+
+.product__img {
+  height: 150px;
+  background-color: forestgreen;
+}
+
+/* first letter styling*/
+.text::first-letter {
+  color: red;
+  font-size: 54px;
+}

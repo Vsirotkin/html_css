@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ccc;
+}
+
+.text_red {
+    color: red;
+}
+
+.footer {
+    background-color: grey
+}
+
+.block {
+    border: 1px solid #000;
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
