@@ -8,64 +8,70 @@
 
 <body>
 
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <img src="../images/leo.png" alt="photo" width="50">
-
-    <div class="contacts_header">
-        <h2 class="heading">Contact Us</h2>
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, reprehenderit.</p>
+    <div class="container">
+         <ul class="header">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
     </div>
-    <form action="#">
+    <div class="contacts_header">
+        <div class="container">
+            <h2 class="heading_contacts">Contact Us</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, reprehenderit.</p>
+        </div>
+    </div>
+    <form action="#" class="container main">
         <div class="contacts_info">
             <img src="images/contacts_image.png" alt="photo">
-            <h4 class="mini_heading">Address</h4>
+            <h4 class="heading4">Address</h4>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <h4 class="mini_heading">Phone</h4>
-            <ul>
-                <li>55 222 444</li>
-                <li>44 555 111</li>
-            </ul>
+            <h4 class="heading4">Phone</h4>
+                <ul>
+                    <li>55 222 444</li>
+                    <li>44 555 111</li>
+                </ul>
 
-            <h4 class="mini_heading">Onlne Service</h4>
-            <ul>
-                <li>gb.ru</li>
-                <li>email@email.com</li>
-            </ul>
-        </div>
+            <h4 class="heading4">Onlne Service</h4>
+                <ul>
+                    <li>gb.ru</li>
+                    <li>email@email.com</li>
+                </ul>
+            </div>
 
         <div class="form">
-            <h4 class="mini_heading">Send Us a Message</h4>
-            Full Name:
-            <input class="input_text" type="text" placeholder="name"><br>
-            Your Email:
-            <input class="input_text" type="email" placeholder="email"><br>
-            Message:
-            <br>
-            <textarea class="input_text" cols="30" rows="10" placeholder="your text"></textarea><br>
-            <button class="button_style" type="submit">Send</button>
+            <h4 class="heading4">Send Us a Message</h4>
+                Full Name:
+                <input class="input_text" type="text" placeholder="name"><br>
+                Your Email:
+                <input class="input_text" type="email" placeholder="email"><br>
+                Message:
+                <br>
+                <textarea class="input_text" placeholder="your text"></textarea><br>
+                <button class="button_style" type="submit">Send</button>
         </div>
-
     </form>
+    ,<div class="container">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2a5ec14562a8627288c089550504721b433cb6d42504b18702d1bb53d2645d27&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+    </div>
 
     <div class="footer">
-        <div class="top_footer">
-            <div class="fotter_text">
-                <h3 class="heading">Lorem ipsum dolor.</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptates!</p>
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer_text">
+                    <h3 class="heading3">Lorem ipsum dolor.</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, voluptates!</p>
+                </div>
             </div>
-        </div>
-        <hr>
-        <div class="footer_bottom">
-            <ul>
-              <li>Owner - Viktor Sirotkin.</li>
-              <li>Phone number - 33 55</li>
-              <li>Email: email@email.com</li>
-          </ul>
-            <div class="fotter_copy">
-                <p>Все права защищены &copy;</p>
+            <hr>
+            <div class="footer_bottom">
+                <ul class="footer_info">
+                  <li style="flex-grow: 1;">Owner - Viktor Sirotkin.</li>
+                  <li style="flex-grow: 1;">Phone number - 33 55</li>
+                  <li style="flex-grow: 1;">Email: email@email.com</li>
+                </ul>
+                <div class="footer_copy">
+                    <p>Все права защищены &copy;</p>
+                </div>
             </div>
         </div>
     </div>
