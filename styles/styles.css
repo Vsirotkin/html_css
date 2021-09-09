@@ -155,6 +155,7 @@ body {
      display: flex;
      justify-content: space-between;
      align-items: center;
+     flex-wrap: wrap;
  }
 .footer_text {
     color: #FFFFFF;
@@ -168,6 +169,13 @@ body {
  }
  .text_footer {
      color: #FFFFFF;
+ }
+ .footer_copy_text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
  }
  .footer_button {
      font-size: 16px;
@@ -282,6 +290,18 @@ hr {
     .project__item_margin {
         margin-right: 32px;
     }
+    .footer_button {
+        padding: 4px 31px;
+    }
+    .footer {
+        padding-top: 48px;
+    }
+    .footer_info {
+        flex-direction: column;
+    }
+    .footer_list {
+        margin-bottom: 24px;
+    }
 }
 
 @media (max-width: 667px) {
@@ -351,6 +371,28 @@ hr {
     }
     .card_box {
         padding-top: 32px;
+    }
+    .footer {
+        padding-top: 18px;
+        padding-bottom: 32px;
+    }
+    .footer_heading {
+        width: 75%;
+        margin: 0 auto 32px;
+        text-align: center;
+    }
+    .footer_top {
+        flex-direction: column;
+        padding-bottom: 41px;
+    }
+    .footer_text {
+        width: 100%;
+    }
+    .footer_list {
+        margin-bottom: 16px;
+    }
+    .footer_copy {
+        margin-top: 32px;
     }
 
 }
